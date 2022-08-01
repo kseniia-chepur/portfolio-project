@@ -1,6 +1,8 @@
 :root {
   --primary-color: #491593;
+  --primary-color-white: #fcfefe;
   --secondary-color: #c4aeff;
+  --accent-color: #73cdff;
 }
 
 body {
@@ -23,21 +25,13 @@ h2 {
 }
 
 h3 {
-  padding-top: 80px;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-h4 {
   font-size: 30px;
   font-weight: bold;
-  font-variant: small-caps;
   font-style: italic;
 }
 
 p {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .nav-wrapper {
@@ -53,12 +47,12 @@ p {
 }
 
 .navbar-nav .nav-link.active {
-  color: #fff;
+  color: var(--primary-color-white);
 }
 
 .nav-link:hover,
 .contact-link:hover {
-  color: #fff;
+  color: var(--primary-color-white);
 }
 
 .contact-link {
@@ -93,12 +87,12 @@ footer a {
 }
 
 footer a:hover {
-  color: #73cdff;
+  color: var(--accent-color);
 }
 
 .standard-btn {
   background-color: var(--primary-color);
-  color: #fcfefe;
+  color: var(--primary-color-white);
   font-size: 18px;
   font-weight: bold;
 }
@@ -106,12 +100,22 @@ footer a:hover {
 .standard-btn:hover {
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
-  color: #fcfefe;
+  color: var(--primary-color-white);
   font-weight: bold;
 }
 
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 24px;
+  }
+  .project-details {
+    padding-bottom: 0 !important;
+    padding-top: 20px !important;
   }
 }
