@@ -74,11 +74,6 @@ p {
   border-radius: 53% 47% 43% 57% / 0% 100% 0% 100%;
 }
 
-.icons {
-  color: var(--primary-color);
-  font-size: 28px;
-}
-
 footer a {
   color: var(--primary-color);
   font-size: 13px;
@@ -104,9 +99,33 @@ footer a:hover {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+.about {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.icons {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+small {
+  font-size: 12px;
+}
+
+@media (max-width: 820px) {
   h1 {
     font-size: 48px;
+  }
+  .about {
+    margin-top: 0 !important;
+    padding-bottom: 30px !important;
+  }
+  .photo {
+    margin-bottom: 0 !important;
   }
 }
 
