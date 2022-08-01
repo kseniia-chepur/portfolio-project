@@ -118,4 +118,7 @@ footer a:hover {
     padding-bottom: 0 !important;
     padding-top: 20px !important;
   }
+  .project-details:last-child {
+    padding-bottom: 30px !important;
+  }
 }
