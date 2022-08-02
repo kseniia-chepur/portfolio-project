@@ -99,13 +99,11 @@ footer a:hover {
   font-weight: bold;
 }
 
-.about,
-.project-list {
+.content {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.about p,
-.project-list p {
+.content p {
   font-size: 16px;
 }
 
@@ -118,21 +116,41 @@ small {
   font-size: 12px;
 }
 
-.project-list a,
-.project-list a:hover {
+.content a,
+.content a:hover {
   font-size: 16px;
   font-weight: normal;
 }
 
-.project-list ul {
+.content ul {
   list-style: square;
   text-align: left;
 }
+
+.contacts h1 {
+  font-size: 48px;
+}
+
+.contacts p {
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+.contacts a {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: block;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 820px) {
   h1 {
-    font-size: 48px;
+    font-size: 22px;
   }
-  .about {
+  .content {
     margin-top: 0 !important;
     padding-bottom: 30px !important;
   }
@@ -145,11 +163,11 @@ small {
   h3 {
     font-size: 20px;
   }
-  .project-details {
+  .content {
     padding-bottom: 0 !important;
     padding-top: 20px !important;
   }
-  .project-details:last-child {
+  .content:last-child {
     padding-bottom: 30px !important;
   }
 }
