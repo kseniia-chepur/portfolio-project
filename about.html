@@ -33,92 +33,78 @@
     <title>Kseniia Chepur | Front-End Web Developer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top nav-wrapper">
-      <div class="container fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mx-auto">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
-            <a class="nav-link active" href="/about.html">About me</a>
-            <a class="nav-link" href="/projects.html">Projects</a>
-            <a class="nav-link" href="/about.html#contacts">Contacts</a>
-          </div>
-        </div>
+    <div class="nav">
+      <div class="container d-flex justify-content-end">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html" class="active">About me</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/about.html#contacts">Contacts</a></li>
+        </ul>
       </div>
-    </nav>
-    <div class="container content">
-      <div class="row mt-5 px-2">
+    </div>
+    <div class="container">
+      <div class="row mt-5 pb-5 px-2 content">
         <div class="col-sm-6">
           <div class="photo-wrapper">
             <img
               src="/images/photo.jpg"
-              class="img-fluid shadow my-5 photo"
+              class="img-fluid shadow photo"
               alt="photo"
             />
           </div>
         </div>
-        <div class="col-sm-6 text-center">
-          <div class="mt-5 pt-5">
-            <p>
-              I am from Kyiv, Ukraine, currenly living in Riga, Latvia.
-              <br />
-              I have a technical education and more than 10 years work
-              experience in Healthcare business in Logistics area & Business
-              Development Management. <br />
-              Had an interest in coding for some years, however only
-              accidentally found SheCodes, I decided to give it a try. And
-              undertood that after jumping into front-end development, it's
-              almost impossible to stop.
-              <br />
-              I am at the very beginning of coding jorney, but really enjoy it
-              and want to develop in this area further.
-            </p>
-            <p>Technologies I've learned at SheCodes:</p>
-            <div class="row text-center icons">
-              <div class="col-2 d-flex flex-column">
-                <i class="fa-brands fa-html5"></i>
-                <small>HTML</small>
-              </div>
-              <div class="col-2 d-flex flex-column">
-                <i class="fa-brands fa-css3-alt"></i>
-                <small>CSS</small>
-              </div>
-              <div class="col-2 d-flex flex-column">
-                <i class="fa-brands fa-js"></i>
-                <small>JavaScript</small>
-              </div>
-              <div class="col-2 d-flex flex-column">
-                <i class="fa-brands fa-github"></i>
-                <small>GitHub</small>
-              </div>
-              <div class="col-2 d-flex flex-column">
-                <i class="fa-brands fa-bootstrap"></i>
-                <small>Bootstrap</small>
-              </div>
-              <div class="col-2 d-flex flex-column text-muted">
-                <i class="fa-brands fa-react"></i>
-                <small>React</small>
-              </div>
+        <div class="col-sm-6 pt-5 text-center">
+          <p>
+            I am from Kyiv, Ukraine, currenly living in Riga, Latvia.
+            <br />
+            I have a technical education and more than 10 years work experience
+            in Healthcare business in Logistics area & Business Development
+            Management. <br />
+            Had an interest in coding for some years, however only accidentally
+            found SheCodes, I decided to give it a try. And undertood that after
+            jumping into front-end development, it's almost impossible to stop.
+            <br />
+            I am at the very beginning of coding jorney, but really enjoy it and
+            want to develop in this area further.
+          </p>
+          <p>Technologies I've learned at SheCodes:</p>
+          <div class="row text-center icons">
+            <div class="col-2 d-flex flex-column">
+              <i class="fa-brands fa-html5"></i>
+              <small>HTML</small>
+            </div>
+            <div class="col-2 d-flex flex-column">
+              <i class="fa-brands fa-css3-alt"></i>
+              <small>CSS</small>
+            </div>
+            <div class="col-2 d-flex flex-column">
+              <i class="fa-brands fa-js"></i>
+              <small>JavaScript</small>
+            </div>
+            <div class="col-2 d-flex flex-column">
+              <i class="fa-brands fa-github"></i>
+              <small>GitHub</small>
+            </div>
+            <div class="col-2 d-flex flex-column">
+              <i class="fa-brands fa-bootstrap"></i>
+              <small>Bootstrap</small>
+            </div>
+            <div class="col-2 d-flex flex-column text-muted">
+              <i class="fa-brands fa-react"></i>
+              <small>React</small>
             </div>
           </div>
         </div>
       </div>
-      <div class="contacts"  id="contacts">
+      <div class="contacts" id="contacts">
         <h1 class="my-5 text-center">Contacts</h1>
         <div class="row text-center mb-5">
           <div class="col-4">
             <p>Email</p>
-            <a href="mailto:kseniya.chepur@gmail.com">kseniya.chepur@gmail.com</a>
+            <a href="mailto:kseniya.chepur@gmail.com"
+              >kseniya.chepur@gmail.com</a
+            >
           </div>
           <div class="col-4">
             <p>Linkedin</p>
@@ -129,7 +115,7 @@
             <a href="#">kseniya.chepur</a>
           </div>
         </div>
-      </div>      
+      </div>
     </div>
   </body>
 </html>
