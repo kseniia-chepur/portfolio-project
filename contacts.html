@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -16,6 +16,10 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/e653be7645.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -28,34 +32,33 @@
     />
     <title>Kseniia Chepur | Front-End Web Developer</title>
   </head>
-  <body class="main-page">
+  <body>
     <div class="nav">
       <div class="container d-flex justify-content-around">
         <ul>
-          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="/about.html">About me</a></li>
           <li><a href="/projects.html">Projects</a></li>
-          <li><a href="/contacts.html">Contacts</a></li>
+          <li><a href="/contacts.html" class="active">Contacts</a></li>
         </ul>
       </div>
     </div>
-    <div class="container">
-      <div class="row text-center mt-5">
-        <div class="col-lg-6">
-          <p>Hello, I am</p>
-          <h1 class="mb-3">Kseniia Chepur</h1>
-          <h2>An aspiring Front-end developer & SheCodes student</h2>
-          <div class="contact mt-4">
-            <a
-              href="/contacts.html"
-              class="btn contact-link shadow-sm px-4 py-2"
-              >Contact</a
-            >
-          </div>
-        </div>
+    <div class="contacts" id="contacts">
+      <h1 class="text-center">
+        Feel free to contact via email or social links:
+      </h1>
+      <div class="text-center mt-5">
+        <a href="mailto:kseniya.chepur@gmail.com" class="email-link"
+          >kseniya.chepur@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mt-2">
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
       </div>
     </div>
-    <footer class="text-center fixed-bottom">
+    <footer class="text-center">
       <p class="mb-0">
         Open-sourced on
         <a
@@ -69,9 +72,8 @@
         Hosted on
         <a href="https://www.netlify.com/" class="source-link" target="_blank"
           >Netlify</a
-        ><a href="https://www.vecteezy.com/free-vector/modern" class="vector-link"target="_blank"
-        >Modern Vectors by Vecteezy</a>
-      </p>      
+        >
+      </p>
     </footer>
   </body>
 </html>
